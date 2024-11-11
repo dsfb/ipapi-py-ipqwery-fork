@@ -14,7 +14,7 @@ A Python library to query IP addresses using the [ipquery.io](https://ipquery.io
 Install the package using pip:
 
 ```bash
-pip install py-ipapi
+pip install ipcore
 ```
 
 ## Usage
