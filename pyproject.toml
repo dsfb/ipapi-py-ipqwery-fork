@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[tool.poetry]
+name = "ipcore"
+version = "0.1.0"
+description = "A Python library to query IP addresses using ipquery.io API"
+authors = ["IPQuery <admin@ipquery.io>"]
+license = "MIT"
+dependencies = [
+    "pydantic>=2.0",
+    "httpx>=0.24.0"
+]
