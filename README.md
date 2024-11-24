@@ -29,12 +29,29 @@ from ipapi.client import IPAPIClient
 
 Fetch information about a specific IP address:
 
+#### Synchronously
+
 ```python
 from ipapi.client import IPAPIClient
 
 client = IPAPIClient()
 ip_info = client.query_ip("8.8.8.8")
 print(ip_info)
+```
+
+#### Asychronously
+
+```python
+from ipapi.client import AsyncIPAPIClient
+
+async def main():
+    client = AsyncIPAPIClient()
+    ip_info = await client.query_ip("8.8.8.8")
+    print(ip_info)
+
+if __name__ == "__main__":
+    import asyncio
+    asyncio.run(main())
 ```
 
 #### Example Output:
