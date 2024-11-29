@@ -3,7 +3,7 @@ requires = ["setuptools", "wheel"]
 
 [tool.poetry]
 name = "ipapi"
-version = "0.1.0"
+version = "0.1.1"
 description = "A Python library to query IP addresses using ipquery.io API"
 authors = ["IPQuery <admin@ipquery.io>"]
 license = "MIT"

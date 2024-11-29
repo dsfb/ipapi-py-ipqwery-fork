@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="ipcore",
-    version="0.1.0",
+    version="0.1.1",
     description="A Python library to query IP addresses using ipquery.io API",
     author="IPQuery",
     author_email="admin@ipquery.io",
